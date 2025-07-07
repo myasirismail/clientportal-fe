@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard";
 import OnFirst from "./Pages";
 import MyStuff from "./Pages/MyStuff";
 import InformationRequests from "./Pages/InformationRequests";
-import CreateTask from "./Pages/CreateTask";
+import CreateTask from "./Pages/createTask";
 import WorkspaceDetailPage from "./Pages/WorkspaceDetailPage";
 import Settings from "./Pages/Settings";
 import Workspaces from "./Pages/Workspaces";
