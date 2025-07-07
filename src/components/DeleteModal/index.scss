@@ -1,0 +1,31 @@
+.delete-modal-main{
+    .css-tlc64q-MuiPaper-root-MuiDialog-paper{
+        padding: 20px;
+    } 
+    .title-main{
+        display: flex;
+        gap: 10px;
+
+        p{
+            color: #F4511E;
+        }
+    }
+
+    .sub-title{
+        color: #11142D;
+        font-family: 'Poppins';
+        line-height: 4;
+    }
+    .delete-modal-action{
+        button{
+            padding: 7px 20px;
+            border-radius: 4px;
+        }
+        .cancel-btn{
+           border: 1px solid #EF5A36;
+        }
+        .success-btn{
+            background-color: #562583;
+        }
+    }
+}

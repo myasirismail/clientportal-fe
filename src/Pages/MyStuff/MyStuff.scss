@@ -1,0 +1,56 @@
+.my-stuff-root {
+  width: 100%;
+  .my-stuff-stats {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s;
+    .my-stuff-stat-block {
+      min-width: 220px;
+      flex: 1 1 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      background: transparent;
+      border-radius: 12px;
+      padding: 1rem 0.5rem 1.5rem 0.5rem;
+      transition: background 0.2s, box-shadow 0.2s;
+      &:hover {
+        background: #f5f2fa;
+        box-shadow: 0 2px 12px rgba(154,95,163,0.08);
+      }
+    }
+  }
+  .my-stuff-portfolios {
+    display: flex;
+    align-items: start;
+    gap: 1.2rem;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-top: 1.5rem;
+    .MuiChip-root {
+      font-size: 15px;
+      font-weight: 500;
+      padding: 0 8px;
+      border-radius: 8px;
+    }
+  }
+  .my-stuff-tasks {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-top: 1.5rem;
+    .MuiButton-root {
+      font-weight: 600;
+      border-radius: 8px;
+      box-shadow: none;
+    }
+  }
+} 
