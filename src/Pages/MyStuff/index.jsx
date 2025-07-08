@@ -171,6 +171,9 @@ const MyStuff = () => {
       },
     ]);
   }, []);
+  const handleWorkspaceClick = (workspaceId) => {
+    navigate(`/workspace-detail`);
+  };
   return (
     <Box className="my-stuff-root" sx={{ p: { xs: 1, md: 3 }, bgcolor: "#f7f7f7", minHeight: "100vh" }}>
       <Grid container spacing={3}>
